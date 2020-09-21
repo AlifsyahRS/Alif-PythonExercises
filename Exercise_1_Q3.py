@@ -1,0 +1,10 @@
+#Part 2 Question 3
+Class_1 = int(input("Class 1 has 32 students. How many groups would you like to divide the students into?\n"))
+Class_2 = int(input("Class 2 has 45 students. How many groups would you like to divide the students into?\n"))
+Class_3 = int(input("Class 3 has 51 students. How many groups would you like to divide the students into?\n"))
+Div_Class1, Rem_Class1 = divmod(32, Class_1)
+Div_Class2, Rem_Class2 = divmod(45, Class_2)
+Div_Class3, Rem_Class3 = divmod(51, Class_3)
+print("Class 1 will be divided into", Class_1, "groups of", Div_Class1, "with", Rem_Class1, "students leftover")
+print("Class 2 will be divided into", Class_2, "groups of", Div_Class2, "with", Rem_Class2, "students leftover")
+print("Class 3 will be divided into", Class_3, "groups of", Div_Class3, "with", Rem_Class3, "students leftover")
